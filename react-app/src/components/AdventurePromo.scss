@@ -1,0 +1,37 @@
+.adventure-promo {
+    display: flex;
+    margin: 3rem 0;
+    height: 400px;
+}
+
+.adventure-promo-text-wrapper {
+    background-color: #ffea00;
+    color: black;
+    flex-grow: 1;
+    padding: 3rem 2rem;
+    width: 55%;
+}
+
+.adventure-promo-eyebrow {
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.adventure-promo-description {
+    line-height: 1.75rem;
+}
+
+.adventure-promo-image-wrapper {
+    height: 400px;
+    width: 45%;
+}
+
+.adventure-promo-image {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+}
