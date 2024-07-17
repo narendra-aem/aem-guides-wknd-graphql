@@ -8,6 +8,8 @@ it.
 */
 import React, {useState} from 'react';
 import Adventures from './Adventures';
+import AdventurePromo from './AdventurePromo';
+import AdobeTargetActivity from './AdobeTargetActivity';
 
 /***
  * Displays a grid of current adventures
@@ -17,6 +19,7 @@ import Adventures from './Adventures';
 
     return (
       <div className="Home">
+     <AdobeTargetActivity activityLocation={"target-global-mbox"} OfferComponent={AdventurePromo}/>
         <h2>Current Adventures</h2>
         <div className="adventure-nav">
           <button onClick={() => setAdventureActivity('')}>All</button>
