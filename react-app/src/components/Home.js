@@ -19,7 +19,7 @@ import AdobeTargetActivity from './AdobeTargetActivity';
 
     return (
       <div className="Home">
-     <AdobeTargetActivity activityLocation={"target-global-mbox"} OfferComponent={AdventurePromo}/>
+     <AdobeTargetActivity activityLocation={"headless-custom-mbox"} OfferComponent={AdventurePromo}/>
         <h2>Current Adventures</h2>
         <div className="adventure-nav">
           <button onClick={() => setAdventureActivity('')}>All</button>
